@@ -16,7 +16,7 @@ To accurately target data, the condition can employ comparisons, logical operato
 
 ##SQL data ordering
 SQL order clause (ORDER BY) allows users to arrange the result set in a specified order. We can sort our data rows based on one or more columns, in ascending (ASC) or descending (DESC) order. The ORDER BY basic syntax is:
-  SELECT column1, column2, ...
+SELECT column1, column2, ...
 FROM table_name
 ORDER BY column1 [ASC | DESC], column2 [ASC | DESC], ...;
 Let's use the "employees" table to extract last names sorted alphabetically. Data ordering SQL query:
